@@ -17,9 +17,7 @@ body {
   align-items: center;
 }
 
-/*
-  Centers all weather informatin in a box with a gradient and box shadow
-*/
+
 .weather-display {
   display: flex;
   flex-direction: column;
@@ -38,18 +36,3 @@ body {
   padding: 1rem;
 }
 
-/*
- Make a class called user-inputs which centers all your
- longitude, lattitude, and "get weather" button and places
- them vertically in the middle of the screen.
-
-  This class will be applied to a div containg our elements
-*/
-
-/* 
- * Create a class called input that you can add to the two inputs and button
- * Make the inputs more beautiful. For example:
- *   Add some space around the button and the inputs
- *   Add a border radius
- *   And add a background color
- */

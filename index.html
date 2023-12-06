@@ -10,18 +10,14 @@
 
 <body>
   <div>
-    <!-- Make an h1 title for your project -->
-    
+    <h1class = 'title'>Edlyft Weather App<h1/>
     <div id="weather-data-container">
-      <!-- Will be populated by data from the open weather API -->
     </div>
     
     <div class="user-inputs">
-      <!-- Add two input elements with type text, and IDs "long" and "lat" respectivley -->
-      <!-- You can add placeholder text by setting the placeholder attribute -->
-      
-      <!-- Create a button that onclick calls getWeather()fahrenheit to update our weather -->
-      
+      <input id = "lat" placeholder = "Enter latitude"/>
+      <input id = "long" placeholder = "Enter longitude"/>
+      <button onClick = "getWeather()">Get Weather</button>
     </div>
   </div>
 
